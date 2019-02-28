@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main(void) {
+
+	char name[20];
+	int age;
+	char code;
+	float key;
+
+	scanf("%s", name);
+	scanf("%d", &age);
+	getchar();
+	scanf("%c", &code);
+	scanf("%f", &key);
+
+	printf("%s\n", name);
+	printf("%d\n", age);
+	printf("%c\n", code);
+	printf("%g\n", key);
+	getchar();
+}
